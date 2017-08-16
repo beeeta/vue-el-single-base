@@ -23,7 +23,6 @@ const store = new Vuex.Store({
   state: {
     count: 0
   },
-  // $store.commit('increment') update value
   mutations: {
     increment (state) {
       state.count++
